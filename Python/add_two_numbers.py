@@ -9,6 +9,8 @@ class Solution:
         Questions: Are they of same size? 
         What's min & max size?(Is it 0 to 2^32?)
         Can they be empty?
+        Time: O(max(m,n))
+        Space: To save output(O(max(m,n))
         """
         #Create a dummy head so as to return its next node as result
         result_head = ListNode(0) 
